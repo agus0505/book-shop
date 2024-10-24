@@ -1,3 +1,6 @@
+
+Para que tu README se vea correctamente formateado en GitHub, es necesario que el texto tenga la sintaxis adecuada de Markdown, como los encabezados, listas y bloques de código. Aquí tienes el README ajustado para evitar los problemas de formato:
+
 📚 Book Seller
 E-commerce de libros desarrollado con React, TypeScript, Node.js y MongoDB.
 
@@ -88,3 +91,6 @@ Agustín Pecelis
 
 🎉 Contribuciones
 ¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes sugerencias, siéntete libre de crear un issue o enviar un pull request.
+
+📄 Licencia
+Este proyecto está bajo la Licencia MIT.
