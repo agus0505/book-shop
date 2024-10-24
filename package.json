@@ -1,0 +1,50 @@
+{
+  "name": "book-seller",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@google-cloud/local-auth": "^2.1.0",
+    "@mercadopago/sdk-react": "^0.0.19",
+    "@paypal/react-paypal-js": "^8.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mercadopago": "^2.0.15",
+    "mongodb": "^6.9.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "zustand": "5.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.7.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "proxy": "http://localhost:1234"
+}

@@ -1,0 +1,20 @@
+export const publishers = [
+  { value: "All", label: "Todos" },
+  { value: "Plataforma Editorial", label: "Plataforma Editorial" },
+  { value: "Planeta", label: "Planeta" },
+  { value: "Aguilar", label: "Aguilar" },
+  { value: "Sudamericana", label: "Sudamericana" },
+  { value: "HarperCollins", label: "HarperCollins" },
+  { value: "Editorial Obelisco", label: "Editorial Obelisco" },
+  { value: "Ediciones Urano", label: "Ediciones Urano" },
+  { value: "Editorial Planeta", label: "Editorial Planeta" },
+  { value: "Espasa", label: "Espasa" },
+  { value: "Urano", label: "Urano" },
+  { value: "Editorial Diana", label: "Editorial Diana" },
+  { value: "Ediciones Gaia", label: "Ediciones Gaia" },
+  { value: "Editorial Sirio", label: "Editorial Sirio" },
+  { value: "Grijalbo", label: "Grijalbo" },
+  { value: "Paidós", label: "Paidós" },
+  { value: "Penguin Random House", label: "Penguin Random House" },
+];
+

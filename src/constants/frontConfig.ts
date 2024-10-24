@@ -1,0 +1,2 @@
+export const MERCADO_PAGO_PUBLIC_KEY = 'APP_USR-028d5ee7-de36-4607-9add-c734ab030f39'
+export const DOLAR_PRICE = 1175
