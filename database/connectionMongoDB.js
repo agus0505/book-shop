@@ -1,5 +1,5 @@
 import { MongoClient } from "mongodb";
-import { MONGODB_URL } from "../src/constants/config";
+import { MONGODB_URL } from "../src/constants/config.js";
 
 const getConnection = async () => {
     try {
