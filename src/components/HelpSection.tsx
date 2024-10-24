@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 
+
 enum Asuntos {
     INFO_BOOKS = 'info sobre libros',
     MY_BUY = 'mi compra online',
@@ -44,17 +45,17 @@ export function HelpSection() {
             )
             // eslint-disable-next-line @typescript-eslint/no-unused-vars
             .then((_response) => {
-                alert('Mensaje enviado con éxito!');
-                setIsSending(false);
-                setName('');
-                setMail('');
-                setAsunto(Asuntos.INFO_BOOKS);
-                setMessage('');
+                alert('Mensaje enviado con éxito!')
+                setIsSending(false)
+                setName('')
+                setMail('')
+                setAsunto(Asuntos.INFO_BOOKS)
+                setMessage('')
             })
             .catch((error) => {
-                console.error('Error al enviar el mensaje:', error);
+                console.error('Error al enviar el mensaje:', error)
                 alert('Hubo un error al enviar tu mensaje, intenta nuevamente.');
-                setIsSending(false);
+                setIsSending(false)
             });
     }
     return (

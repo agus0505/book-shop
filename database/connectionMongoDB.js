@@ -1,8 +1,9 @@
 import { MongoClient } from "mongodb";
+import { MONGODB_URL } from "../src/constants/config";
 
 const getConnection = async () => {
     try {
-        const mongoUrl = "mongodb://localhost:27017/Compras_libros"
+        const mongoUrl = MONGODB_URL
         const client = await MongoClient.connect(mongoUrl)
         return client.db()
     } catch (error) {
