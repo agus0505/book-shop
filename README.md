@@ -1,27 +1,32 @@
+# 📚 **Book Seller**  
+_E-commerce de libros desarrollado con React, TypeScript, Node.js y MongoDB._
 
-Para que tu README se vea correctamente formateado en GitHub, es necesario que el texto tenga la sintaxis adecuada de Markdown, como los encabezados, listas y bloques de código. Aquí tienes el README ajustado para evitar los problemas de formato:
+---
 
-📚 Book Seller
-E-commerce de libros desarrollado con React, TypeScript, Node.js y MongoDB.
+## 🛠️ **Tecnologías Utilizadas**
+- **Frontend:** React + Vite + TypeScript  
+- **Backend:** Node.js + Express  
+- **Base de Datos:** MongoDB  
+- **Estado Global:** Zustand  
+- **Pagos:** Mercado Pago y PayPal (integración con webhooks)  
+- **Correo:** EmailJS para envío de emails automáticos  
 
-🛠️ Tecnologías Utilizadas
-Frontend: React + Vite + TypeScript
-Backend: Node.js + Express
-Base de Datos: MongoDB
-Estado Global: Zustand
-Pagos: Mercado Pago y PayPal (integración con webhooks)
-Correo: EmailJS para envío de emails automáticos
-📋 Características Principales
-🛒 Carrito de compras: Agrega, elimina y modifica productos en tiempo real.
-🔍 Filtros avanzados: Búsqueda por categorías, precios, editoriales, autores, y más.
-💳 Pagos Seguros: Integración con Mercado Pago y PayPal.
-🔔 Webhooks: Validación automática de pagos en tiempo real.
-📊 Control de stock: Actualización en MongoDB al confirmar una compra.
-📧 Notificaciones por correo: Envío de confirmaciones de compra con EmailJS.
-📂 Dependencias del Proyecto
-Dependencias principales
-json
-Copy code
+---
+
+## 📋 **Características Principales**
+- 🛒 **Carrito de compras:** Agrega, elimina y modifica productos en tiempo real.  
+- 🔍 **Filtros avanzados:** Búsqueda por categorías, precios, editoriales, autores, y más.  
+- 💳 **Pagos Seguros:** Integración con Mercado Pago y PayPal.  
+- 🔔 **Webhooks:** Validación automática de pagos en tiempo real.  
+- 📊 **Control de stock:** Actualización en MongoDB al confirmar una compra.  
+- 📧 **Notificaciones por correo:** Envío de confirmaciones de compra con EmailJS.  
+
+---
+
+## 📂 **Dependencias del Proyecto**
+
+### **Dependencias principales**
+```json
 {
   "@emailjs/browser": "^4.4.1",
   "@mercadopago/sdk-react": "^0.0.19",
@@ -36,9 +41,11 @@ Copy code
   "react-router-dom": "^6.26.2",
   "zustand": "5.0.0-rc.2"
 }
+
+```
 Dependencias de desarrollo
-json
-Copy code
+
+```json
 {
   "@eslint/js": "^9.9.0",
   "@types/cors": "^2.8.17",
@@ -55,23 +62,18 @@ Copy code
   "typescript-eslint": "^8.0.1",
   "vite": "^5.4.1"
 }
+```
 🏗️ Instalación y Configuración
 Clonar el Repositorio
 
-bash
-Copy code
 git clone https://github.com/agus0505/book-seller.git
 cd book-seller
 Instalar Dependencias
 
-bash
-Copy code
 npm install
 Configurar Variables de Entorno
 Crea un archivo .env en la carpeta del backend con las siguientes variables:
 
-bash
-Copy code
 MONGODB_URI=<tu-URI-de-MongoDB>
 MERCADOPAGO_ACCESS_TOKEN=<tu-token-de-acceso>
 PAYPAL_CLIENT_ID=<tu-ID-de-cliente>
@@ -81,8 +83,6 @@ EMAILJS_TEMPLATE_ID=<tu-template-id>
 EMAILJS_PUBLIC_KEY=<tu-public-key>
 Iniciar el Proyecto
 
-bash
-Copy code
 npm run dev
 💼 Contacto
 Agustín Pecelis
@@ -94,3 +94,5 @@ Agustín Pecelis
 
 📄 Licencia
 Este proyecto está bajo la Licencia MIT.
+
+
