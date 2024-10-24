@@ -41,10 +41,9 @@ _E-commerce de libros desarrollado con React, TypeScript, Node.js y MongoDB._
   "react-router-dom": "^6.26.2",
   "zustand": "5.0.0-rc.2"
 }
-
 ```
-Dependencias de desarrollo
 
+### **Dependencias de desarrollo**
 ```json
 {
   "@eslint/js": "^9.9.0",
@@ -63,36 +62,61 @@ Dependencias de desarrollo
   "vite": "^5.4.1"
 }
 ```
-🏗️ Instalación y Configuración
-Clonar el Repositorio
 
-git clone https://github.com/agus0505/book-seller.git
-cd book-seller
-Instalar Dependencias
+---
 
-npm install
-Configurar Variables de Entorno
-Crea un archivo .env en la carpeta del backend con las siguientes variables:
+## 🏗️ **Instalación y Configuración**
 
-MONGODB_URI=<tu-URI-de-MongoDB>
-MERCADOPAGO_ACCESS_TOKEN=<tu-token-de-acceso>
-PAYPAL_CLIENT_ID=<tu-ID-de-cliente>
-PAYPAL_CLIENT_SECRET=<tu-secreto-de-cliente>
-EMAILJS_SERVICE_ID=<tu-service-id>
-EMAILJS_TEMPLATE_ID=<tu-template-id>
-EMAILJS_PUBLIC_KEY=<tu-public-key>
-Iniciar el Proyecto
+1. **Clonar el Repositorio**  
+   ```bash
+   git clone https://github.com/agus0505/book-seller.git
+   cd book-seller
+   ```
 
-npm run dev
-💼 Contacto
-Agustín Pecelis
+2. **Instalar Dependencias**  
+   ```bash
+   npm install
+   ```
 
-📧 Email: agustin.pecelis@gmail.com
+3. **Configurar Variables de Entorno**  
+   Crea un archivo `.env` en la carpeta del backend con las siguientes variables:
+   ```env
+   MONGODB_URI=<tu-URI-de-MongoDB>
+   MERCADOPAGO_ACCESS_TOKEN=<tu-token-de-acceso>
+   PAYPAL_CLIENT_ID=<tu-ID-de-cliente>
+   PAYPAL_CLIENT_SECRET=<tu-secreto-de-cliente>
+   EMAILJS_SERVICE_ID=<tu-service-id>
+   EMAILJS_TEMPLATE_ID=<tu-template-id>
+   EMAILJS_PUBLIC_KEY=<tu-public-key>
+   ```
 
-🎉 Contribuciones
-¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes sugerencias, siéntete libre de crear un issue o enviar un pull request.
+4. **Iniciar el Proyecto**  
+   ```bash
+   npm run dev
+   ```
 
-📄 Licencia
+---
+
+## 💼 **Contacto**  
+**Agustín Pecelis**  
+📧 **Email:** [agustin.pecelis@gmail.com](mailto:agustin.pecelis@gmail.com)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Agustín%20Pecelis-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/agustin-pecelis-050455309/)
+
+---
+
+## 🎉 **Contribuciones**
+¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes sugerencias, siéntete libre de crear un _issue_ o enviar un _pull request_.
+
+---
+
+## 📄 **Licencia**
 Este proyecto está bajo la Licencia MIT.
+
+---
+
+## 🌐 **Demo en Producción (Opcional)**  
+Si has desplegado el proyecto en línea, añade aquí el enlace:  
+**[Ver Demo](https://mi-proyecto.github.io/)**
+
 
 
