@@ -109,14 +109,8 @@ _E-commerce de libros desarrollado con React, TypeScript, Node.js y MongoDB._
 
 ---
 
-## 📄 **Licencia**
-Este proyecto está bajo la Licencia MIT.
 
----
 
-## 🌐 **Demo en Producción (Opcional)**  
-Si has desplegado el proyecto en línea, añade aquí el enlace:  
-**[Ver Demo](https://mi-proyecto.github.io/)**
 
 
 
