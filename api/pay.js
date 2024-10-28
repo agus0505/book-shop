@@ -1,7 +1,7 @@
 import express from 'express';
 import { MercadoPagoConfig, Preference } from "mercadopago";
 import { addPayData } from '../database/mongodb.js';
-import { MERCADO_PAGO_ACCES_TOKEN, NGROK_HOST } from '../constants/config.js';
+import { MERCADO_PAGO_ACCES_TOKEN, NGROK_HOST } from '../src/constants/config.js';
 
 const router = express.Router();
 const clientMp = new MercadoPagoConfig({ accessToken: MERCADO_PAGO_ACCES_TOKEN });
@@ -134,3 +134,5 @@ router.post('/', async (req, res) => {
         }
     }
 });
+
+export default router

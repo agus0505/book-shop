@@ -2,7 +2,7 @@ import express from 'express';
 import fetch from 'node-fetch'; // Si no lo tienes, instálalo
 import { addConfirmedBuyData } from '../database/mongodb.js';
 import { MercadoPagoConfig } from "mercadopago";
-import { MERCADO_PAGO_ACCES_TOKEN } from '../constants/config.js';
+import { MERCADO_PAGO_ACCES_TOKEN } from '../src/constants/config.js';
 
 const router = express.Router();
 const clientMp = new MercadoPagoConfig({ accessToken: MERCADO_PAGO_ACCES_TOKEN });
