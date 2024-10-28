@@ -20,5 +20,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "index.js", "database/mongodb.js"]
+  "include": ["src", "index.js", "database/mongodb.js", "dist"]
 }
