@@ -1,6 +1,6 @@
 import express from 'express';
 import { MercadoPagoConfig, Preference } from "mercadopago";
-import { addPayData } from '../database/mongodb.js';
+//import { addPayData } from '../database/mongodb.js';
 import { MERCADO_PAGO_ACCES_TOKEN, NGROK_HOST } from '../src/constants/config.js';
 
 const router = express.Router();
@@ -47,15 +47,15 @@ router.post('/', async (req, res) => {
             const result = await preference.create({ body })
 
             
-            const payData = {
-                ID: crypto.randomUUID(),
-                FORM_DATA: formData,
-                PRODUCTS: cart,
-                PRICE: totalPrice,
-                DATE: date.toUTCString(),
-                PAY_METHOD: payMethod
-            }
-            await addPayData(payData)
+            //const payData = {
+                //ID: crypto.randomUUID(),
+                //FORM_DATA: formData,
+                //PRODUCTS: cart,
+                //PRICE: totalPrice,
+                //DATE: date.toUTCString(),
+                //PAY_METHOD: payMethod
+            //}
+            //await addPayData(payData)
             res.json({
                 id: result.id,
             })
@@ -117,15 +117,15 @@ router.post('/', async (req, res) => {
                             body: JSON.stringify(order)
                         });
                         const data = await response.json()
-                        const payData = {
-                            ID: crypto.randomUUID(),
-                            FORM_DATA: formData,
-                            PRODUCTS: cart,
-                            PRICE: totalPrice,
-                            DATE: date.toUTCString(),
-                            PAY_METHOD: payMethod
-                        }
-                        await addPayData(payData)
+                        //const payData = {
+                            //ID: crypto.randomUUID(),
+                            //FORM_DATA: formData,
+                            //PRODUCTS: cart,
+                            //PRICE: totalPrice,
+                            //DATE: date.toUTCString(),
+                            //PAY_METHOD: payMethod
+                        //}
+                        //await addPayData(payData)
                         res.json(data)
                     }
               }

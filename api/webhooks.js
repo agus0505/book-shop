@@ -1,6 +1,6 @@
 import express from 'express';
 import fetch from 'node-fetch'; // Si no lo tienes, instálalo
-import { addConfirmedBuyData } from '../database/mongodb.js';
+//import { addConfirmedBuyData } from '../database/mongodb.js';
 import { MercadoPagoConfig } from "mercadopago";
 import { MERCADO_PAGO_ACCES_TOKEN } from '../src/constants/config.js';
 
@@ -35,15 +35,15 @@ router.post('/', async (req, res) => {
 
 
 
-            addConfirmedBuyData({
-                ID: data.order.id,
-                DATE: data.date_created,
-                STATUS: data.status,
-                AMOUNT: data.transaction_amount,
-                EMAIL: data.payer.email,
-                PAYMENT_METHOD: `${data.order.type}, ${data.payment_method_id}`,
-                ITEMS: items
-            })
+            //addConfirmedBuyData({
+                //ID: data.order.id,
+                //DATE: data.date_created,
+                //STATUS: data.status,
+                //AMOUNT: data.transaction_amount,
+                //EMAIL: data.payer.email,
+                //PAYMENT_METHOD: `${data.order.type}, ${data.payment_method_id}`,
+                //ITEMS: items
+            //})
         }
         res.sendStatus(200)
     } catch (error) {
